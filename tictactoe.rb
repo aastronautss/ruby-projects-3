@@ -63,7 +63,7 @@ class TTTBoard
     end
 
     display_board
-    return end_message
+    end_message
   end
 
   # Displays the board in the command line.
@@ -100,8 +100,6 @@ class TTTBoard
                   @rows.transpose +
                   [[@rows[0][0], @rows[1][1], @rows[2][2]]] +
                   [[@rows[0][2], @rows[1][1], @rows[2][0]]]
-
-    p deconstruct
 
     deconstruct.any? do |line|
       line.all? { |element| element == line[0] }

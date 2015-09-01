@@ -1,5 +1,5 @@
 # ruby-projects-3
-The third batch of Ruby projects for the Odin Project.
+The third batch of Ruby projects for the Odin Project, focusing on object-oriented programming principles.
 
 ## Project 1: Tic-Tac-Toe
 Create a Tic-Tac-Toe game to be run in the command line, using OOP principles.
